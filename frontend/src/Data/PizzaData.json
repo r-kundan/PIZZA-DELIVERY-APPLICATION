@@ -1,0 +1,71 @@
+{
+    
+    "pizzas": [
+      {
+        "id": 101,
+        "name": "Neapolitan Style Pizza",
+        "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil.",
+        "price": 15.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "neapolitan_pizza.jpg"
+      },
+      {
+        "id": 102,
+        "name": "Chicago Style Pizza",
+        "description": "Deep-dish pizza with mozzarella, ground beef, sausage, pepperoni, onion, mushrooms, and green peppers.",
+        "price": 19.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "chicago_pizza.jpg"
+      },
+      {
+        "id": 103,
+        "name": "New York Style Pizza",
+        "description": "Large, foldable slices with tomato sauce and mozzarella cheese, perfect for adding your favorite toppings.",
+        "price": 17.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "new_york_style_pizza.jpg"
+      },
+      {
+        "id": 104,
+        "name": "Sicilian Style Pizza",
+        "description": "Thick-cut pizza with pillowy dough, crunchy crust, robust tomato sauce, and optional cheese.",
+        "price": 16.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "sicilian_pizza_2.jpg"
+      },
+      {
+        "id": 105,
+        "name": "Greek Style Pizza",
+        "description": "Thick and chewy crust with tangy tomato paste, mozzarella, cheddar, provolone, feta cheese, black olives, and red onion.",
+        "price": 18.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "greek_pizza.jpg"
+      },
+      {
+        "id": 106,
+        "name": "California Style Pizza",
+        "description": "Gourmet pizza with inventive toppings like chicken, artichokes, goat cheese, and egg.",
+        "price": 20.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "california_pizza.jpg"
+      },
+      {
+        "id": 107,
+        "name": "Detroit Style Pizza",
+        "description": "Square pizza with pepperoni, brick cheese, and tomato sauce, featuring a thick, crispy crust.",
+        "price": 21.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "detroit_pizza.jpg"
+      },
+      {
+        "id": 108,
+        "name": "St. Louis Style Pizza",
+        "description": "Thin, cracker-like crust with Provel cheese and sweet tomato sauce, cut into small rectangles.",
+        "price": 14.99,
+        "sizes": ["Small , ", "Medium , ", "Large"],
+        "image": "st_louis_pizza.jpg"
+      }
+    ]
+  }
+
+  

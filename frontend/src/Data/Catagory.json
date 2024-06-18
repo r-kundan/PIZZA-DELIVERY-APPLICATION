@@ -1,0 +1,173 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "category": "Pizzas",
+        "path":"pizzas",
+        "image":"new_york_style_pizza.jpg",
+        "items": [
+          {
+            "id": 101,
+            "name": "Neapolitan Style Pizza",
+            "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, basil leaves, oregano, and olive oil.",
+            "price": 15.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "neapolitan_pizza.jpg"
+          },
+          {
+            "id": 102,
+            "name": "Chicago Style Pizza",
+            "description": "Deep-dish pizza with mozzarella, ground beef, sausage, pepperoni, onion, mushrooms, and green peppers.",
+            "price": 19.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "chicago_pizza.jpg"
+          },
+          {
+            "id": 103,
+            "name": "New York Style Pizza",
+            "description": "Large, foldable slices with tomato sauce and mozzarella cheese, perfect for adding your favorite toppings.",
+            "price": 17.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "new_york_style_pizza.jpg"
+          },
+          {
+            "id": 104,
+            "name": "Sicilian Style Pizza",
+            "description": "Thick-cut pizza with pillowy dough, crunchy crust, robust tomato sauce, and optional cheese.",
+            "price": 16.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "sicilian_pizza_2.jpg"
+          },
+          {
+            "id": 105,
+            "name": "Greek Style Pizza",
+            "description": "Thick and chewy crust with tangy tomato paste, mozzarella, cheddar, provolone, feta cheese, black olives, and red onion.",
+            "price": 18.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "greek_pizza.jpg"
+          },
+          {
+            "id": 106,
+            "name": "California Style Pizza",
+            "description": "Gourmet pizza with inventive toppings like chicken, artichokes, goat cheese, and egg.",
+            "price": 20.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "california_pizza.jpg"
+          },
+          {
+            "id": 107,
+            "name": "Detroit Style Pizza",
+            "description": "Square pizza with pepperoni, brick cheese, and tomato sauce, featuring a thick, crispy crust.",
+            "price": 21.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "detroit_pizza.jpg"
+          },
+          {
+            "id": 108,
+            "name": "St. Louis Style Pizza",
+            "description": "Thin, cracker-like crust with Provel cheese and sweet tomato sauce, cut into small rectangles.",
+            "price": 14.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "st_louis_pizza.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Sides",
+        "path":"sides-food",
+        "image":"sidesfood.avif",
+        "items": [
+          {
+            "id": 201,
+            "name": "Garlic Breadsticks",
+            "description": "Warm breadsticks brushed with garlic butter and sprinkled with Parmesan cheese.",
+            "price": 5.99,
+            "sizes": ["Regular"],
+            "image": "garlic.avif"
+          },
+          {
+            "id": 202,
+            "name": "Chicken Wings",
+            "description": "Crispy chicken wings available in various flavors: BBQ, Buffalo, Garlic Parmesan.",
+            "price": 8.99,
+            "sizes": ["6 pieces", "12 pieces"],
+            "image": "chiken-wings.avif"
+          },
+          {
+            "id": 203,
+            "name": "Mozzarella Sticks",
+            "description": "Breaded and fried mozzarella sticks served with marinara sauce.",
+            "price": 7.99,
+            "sizes": ["Regular"],
+            "image": "Mozzarella.avif"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Drinks",
+        "path":"drinks",
+        "image":"drinks.avif",
+        "items": [
+          {
+            "id": 301,
+            "name": "Coke",
+            "description": "Refreshing Coca-Cola beverage.",
+            "price": 1.99,
+            "sizes": ["Can", "Bottle"],
+            "image": "coke.jpg"
+          },
+          {
+            "id": 302,
+            "name": "Pepsi",
+            "description": "Refreshing Pepsi beverage.",
+            "price": 1.99,
+            "sizes": ["Can", "Bottle"],
+            "image": "pepsi.jpg"
+          },
+          {
+            "id": 303,
+            "name": "Lemonade",
+            "description": "Freshly squeezed lemonade.",
+            "price": 2.99,
+            "sizes": ["Regular"],
+            "image": "lemonade.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Desserts",
+        "path":"desserts",
+        "image":"dessert.avif",
+        "items": [
+          {
+            "id": 401,
+            "name": "Chocolate Brownie",
+            "description": "Rich and fudgy chocolate brownie.",
+            "price": 3.99,
+            "sizes": ["Regular"],
+            "image": "Chocolate_Brownie.avif"
+          },
+          {
+            "id": 402,
+            "name": "Cheesecake",
+            "description": "Creamy cheesecake with a graham cracker crust.",
+            "price": 4.99,
+            "sizes": ["Regular"],
+            "image": "Cheesecake.avif"
+          },
+          {
+            "id": 403,
+            "name": "Tiramisu",
+            "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+            "price": 5.99,
+            "sizes": ["Regular"],
+            "image": "Tiramisu.avif"
+          }
+        ]
+      }
+    ]
+  }
+  
