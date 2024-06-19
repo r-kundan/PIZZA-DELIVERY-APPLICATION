@@ -9,6 +9,7 @@ import Pizzas from '../components/Pizzas'
 import SideFood from '../components/SideFood'
 import Drinks from '../components/Drinks'
 import Desserts from '../components/Desserts'
+import About from '../Pages/About'
 
 function AllRoutes() {
   return (
@@ -17,6 +18,7 @@ function AllRoutes() {
             <Route path='/' element={<Layout/>}>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/menu' element={<Menu/>}/>
+                <Route path='/about-us' element={<About/>}/>
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/register' element={<Register/>}/>
                 <Route path='/pizzas' element={<Pizzas/>} />

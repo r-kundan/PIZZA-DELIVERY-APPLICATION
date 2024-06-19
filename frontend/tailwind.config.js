@@ -12,6 +12,7 @@ export default {
         "input":"rgba(0 ,0 ,0, 0.7)"
       },
       boxShadow:{
+        xl: '0px 0px 8px 2px white',
         md: '0px 0px 10px 4px gray',
        lg:'0px 0px 20px 1px white',
       },

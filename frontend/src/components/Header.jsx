@@ -13,8 +13,8 @@ function Header() {
           to: "/menu",
         },
         {
-            name: "Login",
-            to: "/login",
+            name: "About Us",
+            to: "/about-us",
           },
           {
             name: "Register",
