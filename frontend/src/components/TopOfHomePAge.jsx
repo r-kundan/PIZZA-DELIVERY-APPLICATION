@@ -42,9 +42,9 @@ function TopOfHomePAge() {
          />
                </div>
              <img
-           src="/hometop1.avif"
+           src="/about-story.png"
            alt="food image"
-           className="w-[300px] h-[300px] sm:w-[460px] sm:h-[460px] xl:w-[550px] xl:h-[550px] rounded-full absolute border-4 shadow-lg "
+           className="w-[295px] h-[295px] sm:w-[460px] sm:h-[460px] xl:w-[550px] xl:h-[550px] rounded-full absolute md:border-2 md:shadow-lg "
          />
              </div>
            </div>

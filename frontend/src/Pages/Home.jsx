@@ -6,7 +6,7 @@ import TopOfHomePAge from "../components/TopOfHomePAge";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-10 justify-center items-center">
+    <div className="flex flex-col gap-10 md:pt-16 justify-center items-center">
         <TopOfHomePAge/>
         <CategoryBox/>
      <MostPopularFood/>

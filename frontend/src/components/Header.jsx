@@ -22,7 +22,7 @@ function Header() {
           },
     ]
   return (
-    <div className='w-full flex justify-center items-center md:pt-8 p-0'>
+    <div className='w-full flex justify-center items-center md:pt-10 p-0'>
       <div className='flex justify-center md:w-[50rem] w-full bg-base items-center flex-col md:flex-row md:justify-evenly h-32 md:h-24 md:rounded-full'>
       <PrimaryHeading>PizzaPal</PrimaryHeading>
         <div >
