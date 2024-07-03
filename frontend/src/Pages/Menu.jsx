@@ -9,7 +9,7 @@ function Menu() {
   return (
     <div className=" flex flex-col justify-center items-center">
       <div className="flex justify-center items-center">
-      <ul className="flex gap-6 md:gap-0 text-xl shadow-md m-2  mt-6 rounded-md">
+      <ul className="flex md:gap-4 text-xl shadow-md m-2  mt-6 rounded-md">
         <li className="m-2">
           <Link
             className={({ isActive }) =>
