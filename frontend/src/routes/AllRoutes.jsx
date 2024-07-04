@@ -10,6 +10,7 @@ import SideFood from '../components/SideFood'
 import Drinks from '../components/Drinks'
 import Desserts from '../components/Desserts'
 import About from '../Pages/About'
+import AddToCart from '../Pages/AddToCart'
 
 function AllRoutes() {
   return (
@@ -18,13 +19,13 @@ function AllRoutes() {
             <Route path='/' element={<Layout/>}>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/menu' element={<Menu/>}/>
-                <Route path='/about-us' element={<About/>}/>
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/register' element={<Register/>}/>
                 <Route path='/pizzas' element={<Pizzas/>} />
                 <Route path='/sides-food' element={<SideFood/>}/>
                 <Route path='/drinks' element={<Drinks/>}/>
                 <Route path='/desserts' element={<Desserts/>}/>
+                <Route path='/addtocart' element={<AddToCart/>}/>
 
 
 
