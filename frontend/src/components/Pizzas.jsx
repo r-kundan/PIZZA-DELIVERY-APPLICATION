@@ -19,7 +19,7 @@ function Pizzas() {
 
     setAddedToCartMap({
       ...addedToCartMap,
-      [items.id]: true,
+      [pizza.id]: true,
     });
   };
 
