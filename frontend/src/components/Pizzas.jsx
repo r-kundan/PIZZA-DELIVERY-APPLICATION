@@ -14,8 +14,6 @@ function Pizzas() {
 
 
   const handleAddToCart = (pizza) => {
-    // dispatch(addItem(pizza));
-    console.log("Adding to cart:", pizza);
     dispatch(addItem({ ...pizza, quantity: 1 }));
 
   };

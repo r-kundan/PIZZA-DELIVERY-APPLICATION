@@ -3,8 +3,14 @@ import SidesFood from "../Data/Catagory.json"
 import CategoryIcon from "./CategoryIcon";
 import { PrimaryHeading, SecondaryHeading } from "./Heading";
 import RoundedButton from "./RoundedButton";
+import {useDispatch } from "react-redux" 
+import { addItem } from "../Redux/Slices/cartSlice";
 
 function SideFood() {
+  const dispatch = useDispatch()
+  const handleAddToCart = (items)=>{
+    dispatch(addItem({ ...items, quantity: 1 }));
+  }
   const sidesCategory = SidesFood.menu.find(category => category.id === 2);
   return (
     <div className=" flex justify-center items-center flex-col mt-8">
@@ -23,7 +29,7 @@ function SideFood() {
                 <p className="text-wrap"><span className="text-xl text-orange-300">Description:- </span>{type.description}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Price:-  </span>$ {type.price}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Sizes:- </span>{type.sizes}</p>
-              <RoundedButton text={"Add to Cart"}/>
+                <RoundedButton text={"Add to Cart"} onClick={() => handleAddToCart(type)} />
               </div>
             </div>
           );
