@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { removeItem, updateItemQuantity } from "../Redux/Slices/cartSlice";
-import { FaTrash, FaCheck, FaTimes } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
+
 
 function AddToCart() {
   const items = useSelector((state) => state.cart.items);
@@ -53,7 +54,8 @@ function AddToCart() {
           ))}
         </ul>
       )}
-                <h2 className="flex flex-col md:flex-row justify-start items-center md:gap-16 gap-8 bg-base md:m-10 m-3 p-4 text-wrap rounded-2xl">Total Price: ${totalPrice.toFixed(2)}</h2>
+                <h2 className="flex flex-col md:flex-row justify-start items-center  gap-2 bg-base md:m-10 m-3 p-4 text-wrap rounded-2xl">Total Price:<span className=" font-medium text-primary">${totalPrice.toFixed(2)}</span>
+                </h2>
 
     </div>
   );

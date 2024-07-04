@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import DessertsData from "../Data/Catagory.json"
 import CategoryIcon from "./CategoryIcon";
 import { PrimaryHeading, SecondaryHeading } from "./Heading";
@@ -10,11 +10,16 @@ import { addItem } from "../Redux/Slices/cartSlice";
 
 function Desserts() {
   const dispatch = useDispatch();
+  const [addedToCartMap, setAddedToCartMap] = useState({});
 
 
-  const handleAddToCart = (pizza) => {
-    dispatch(addItem({ ...pizza, quantity: 1 }));
-
+  const handleAddToCart = (items) => {
+ 
+    dispatch(addItem({ ...items, quantity: 1 }));
+    setAddedToCartMap({
+      ...addedToCartMap,
+      [items.id]: true,
+    });
   };
   const DessertCategory = DessertsData.menu.find(category => category.id === 4);
   return (
@@ -22,6 +27,8 @@ function Desserts() {
       <PrimaryHeading>Dessert Food</PrimaryHeading>
       <div className="flex flex-col">
         {DessertCategory.items.map((type, index) => {
+          const isAdded = addedToCartMap[type.id];
+
           return (
             <div  key={index} className="flex flex-col md:flex-row justify-start items-center md:gap-16 gap-8 bg-base md:m-10 m-3 p-4 text-wrap rounded-2xl">
               <CategoryIcon
@@ -34,7 +41,11 @@ function Desserts() {
                 <p className="text-wrap"><span className="text-xl text-orange-300">Description:- </span>{type.description}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Price:-  </span>$ {type.price}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Sizes:- </span>{type.sizes}</p>
-                <RoundedButton text={"Add to Cart"} onClick={() => handleAddToCart(type)} />
+                <RoundedButton
+                  text={isAdded ? "Added" : "Add to Cart"} 
+                  onClick={() => handleAddToCart(type)}
+                  disabled={isAdded} 
+                />
 
               </div>
             </div>
