@@ -12,13 +12,13 @@ function Header() {
           name: "Menu",
           to: "/menu",
         },
-        {
-            name: "About Us",
-            to: "/about-us",
-          },
           {
             name: "Register",
             to: "/register",
+          },
+          {
+            name: `Cart`,
+            to: "/addtocart",
           },
     ]
   return (

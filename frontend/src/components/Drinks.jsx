@@ -2,6 +2,8 @@ import React from 'react'
 import DrinkData from "../Data/Catagory.json"
 import CategoryIcon from "./CategoryIcon";
 import { PrimaryHeading, SecondaryHeading } from "./Heading";
+import RoundedButton from "./RoundedButton";
+
 
 function Drinks() {
   const DrinkCatagory = DrinkData.menu.find(catagory =>catagory.id===3)
@@ -22,6 +24,8 @@ function Drinks() {
                 <p className="text-wrap"><span className="text-xl text-orange-300">Description:- </span>{type.description}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Price:-  </span>$ {type.price}</p>
                 <p className="text-wrap"> <span className="text-xl text-orange-300">Sizes:- </span>{type.sizes}</p>
+              <RoundedButton text={"Add to Cart"}/>
+
               </div>
             </div>
           );
