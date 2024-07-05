@@ -133,6 +133,54 @@
             "price": 2.99,
             "sizes": ["Regular"],
             "image": "lemonade.jpg"
+          },
+          {
+            "id": 304,
+            "name": "Orange Juice",
+            "description": "Freshly squeezed orange juice.",
+            "price": 3.49,
+            "sizes": ["Small", "Large"],
+            "image": "orange_juice.jpg"
+          },
+          {
+            "id": 305,
+            "name": "Iced Tea",
+            "description": "Chilled iced tea with a hint of lemon.",
+            "price": 2.49,
+            "sizes": ["Small", "Large"],
+            "image": "iced_tea.jpg"
+          },
+          {
+            "id": 306,
+            "name": "Coffee",
+            "description": "Hot brewed coffee.",
+            "price": 1.99,
+            "sizes": ["Small", "Medium", "Large"],
+            "image": "coffee.jpg"
+          },
+          {
+            "id": 307,
+            "name": "Hot Chocolate",
+            "description": "Rich and creamy hot chocolate.",
+            "price": 2.99,
+            "sizes": ["Regular", "Large"],
+            "image": "hot_chocolate.jpg"
+          },
+          {
+            "id": 308,
+            "name": "Mineral Water",
+            "description": "Pure and refreshing mineral water.",
+            "price": 1.49,
+            "sizes": ["Bottle"],
+            "image": "mineral_water.jpg"
+          },
+          {
+            "id": 309,
+            "name": "Milkshake",
+            "description": "Creamy and thick milkshake.",
+            "price": 3.99,
+            "sizes": ["Small", "Large"],
+            "image": "milkshake.jpg"
           }
         ]
       },
