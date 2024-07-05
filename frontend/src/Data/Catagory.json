@@ -140,7 +140,7 @@
             "description": "Freshly squeezed orange juice.",
             "price": 3.49,
             "sizes": ["Small", "Large"],
-            "image": "orange_juice.jpg"
+            "image": "OrangeJuice.png"
           },
           {
             "id": 305,
