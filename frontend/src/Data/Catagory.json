@@ -187,8 +187,8 @@
       {
         "id": 4,
         "category": "Desserts",
-        "path":"desserts",
-        "image":"dessert.avif",
+        "path": "desserts",
+        "image": "dessert.avif",
         "items": [
           {
             "id": 401,
@@ -213,6 +213,62 @@
             "price": 5.99,
             "sizes": ["Regular"],
             "image": "Tiramisu.avif"
+          },
+          {
+            "id": 404,
+            "name": "Key Lime Pie",
+            "description": "Refreshing key lime pie with a buttery graham cracker crust.",
+            "price": 4.49,
+            "sizes": ["Regular"],
+            "image": "Key_Lime_Pie.avif"
+          },
+          {
+            "id": 405,
+            "name": "Strawberry Shortcake",
+            "description": "Delicate layers of sponge cake, fresh strawberries, and whipped cream.",
+            "price": 4.79,
+            "sizes": ["Regular"],
+            "image": "Strawberry_Shortcake.avif"
+          },
+          {
+            "id": 406,
+            "name": "Apple Pie",
+            "description": "Homemade apple pie with a flaky crust and cinnamon-spiced apples.",
+            "price": 4.29,
+            "sizes": ["Regular"],
+            "image": "Apple_Pie.avif"
+          },
+          {
+            "id": 407,
+            "name": "Banana Pudding",
+            "description": "Creamy banana pudding with layers of vanilla wafers and fresh bananas.",
+            "price": 3.99,
+            "sizes": ["Regular"],
+            "image": "Banana_Pudding.avif"
+          },
+          {
+            "id": 408,
+            "name": "Lemon Bars",
+            "description": "Tangy lemon bars with a buttery shortbread crust.",
+            "price": 4.49,
+            "sizes": ["Regular"],
+            "image": "Lemon_Bars.avif"
+          },
+          {
+            "id": 409,
+            "name": "Red Velvet Cake",
+            "description": "Moist red velvet cake with cream cheese frosting.",
+            "price": 5.49,
+            "sizes": ["Regular"],
+            "image": "Red_Velvet_Cake.avif"
+          },
+          {
+            "id": 410,
+            "name": "Pecan Pie",
+            "description": "Southern-style pecan pie with pecans in a sweet, gooey filling.",
+            "price": 4.99,
+            "sizes": ["Regular"],
+            "image": "Pecan_Pie.avif"
           }
         ]
       }
