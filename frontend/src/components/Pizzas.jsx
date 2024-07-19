@@ -79,7 +79,7 @@ function Pizzas() {
         </li>
       </ul>
       </div>
-      <PrimaryHeading>Pizza Types</PrimaryHeading>
+      <PrimaryHeading>Pizzas</PrimaryHeading>
       <div className="flex flex-col">
         {PizzaData.pizzas.map((type, index) => {
           const isAdded = addedToCartMap[type.id];

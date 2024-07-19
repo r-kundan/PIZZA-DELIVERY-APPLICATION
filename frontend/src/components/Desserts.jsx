@@ -77,7 +77,7 @@ function Desserts() {
         </li>
       </ul>
       </div>
-      <PrimaryHeading>Dessert Food</PrimaryHeading>
+      <PrimaryHeading>Dessert</PrimaryHeading>
       <div className="flex flex-col">
         {DessertCategory.items.map((type, index) => {
           const isAdded = addedToCartMap[type.id];
